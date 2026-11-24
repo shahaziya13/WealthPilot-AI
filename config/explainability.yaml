@@ -1,0 +1,17 @@
+explainability:
+  schema_version: "1.0"
+  audiences:
+    - client
+    - advisor
+    - compliance
+  evidence_hash: sha256
+  require_human_review: true
+  trade_execution_enabled: false
+  financial_advice_enabled: false
+  xai_methods:
+    shap: planned_not_implemented
+    lime: planned_not_implemented
+  output:
+    formats:
+      - json
+      - markdown
