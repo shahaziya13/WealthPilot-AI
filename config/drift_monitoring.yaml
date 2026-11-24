@@ -1,0 +1,13 @@
+risk_category_bands:
+  Ultra-Conservative: 0.020
+  Conservative: 0.025
+  Balanced: 0.030
+  Aggressive: 0.040
+  Ultra-Aggressive: 0.050
+asset_classes:
+  - indian_equity
+  - international_equity
+  - indian_fixed_income
+  - international_fixed_income
+  - alternatives
+  - cash

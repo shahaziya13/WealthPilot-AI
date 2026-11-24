@@ -12,3 +12,6 @@ data/generated/*
 .DS_Store
 
 *.egg-info/
+
+# Generated Day 2 drift-monitoring reports
+reports/day02/
