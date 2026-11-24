@@ -1,0 +1,23 @@
+# Project-brief reference assumptions only. Confirm and version against official law
+# before any production or client-facing use. Do not treat as tax advice.
+rules:
+  - rule_id: brief_equity_section112a_reference
+    asset_class: listed_equity_eligible_111a_112a
+    holding_period_days: 365
+    short_term_rate: 0.20
+    long_term_rate: 0.125
+    annual_ltcg_exemption: 125000
+    surcharge_rate: 0.0
+    cess_rate: 0.04
+    effective_from: "2024-07-23"
+    notes: "Simplified brief reference; threshold/exemption and conditions require verification."
+  - rule_id: brief_debt_fund_reference
+    asset_class: specified_debt_fund
+    holding_period_days: 1095
+    short_term_rate: 0.30
+    long_term_rate: 0.125
+    annual_ltcg_exemption: 0
+    surcharge_rate: 0.0
+    cess_rate: 0.04
+    effective_from: "2023-04-01"
+    notes: "STCG 30% is placeholder only; actual applicable slab rate is taxpayer-specific. Verify acquisition-date provisions."

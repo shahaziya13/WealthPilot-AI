@@ -1,0 +1,6 @@
+# Conservative simulation defaults; calibrate with instrument-level market data.
+participation_rate: 0.10
+max_trade_value_inr: null
+market_impact_model: square_root
+market_impact_coefficient: 1.0
+require_human_approval_for_phased_execution: true
