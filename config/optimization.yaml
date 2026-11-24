@@ -1,0 +1,8 @@
+# Illustrative research settings; not client mandates.
+risk_aversion: 4.0
+min_weight: 0.0
+max_weight: 0.60
+max_turnover: 0.25
+max_asset_trade: 0.15
+transaction_cost_bps: 15
+solver_preference: [CLARABEL, OSQP, SCS]
