@@ -1,0 +1,12 @@
+# Day 3 trigger policy. These are review triggers, not automatic trade instructions.
+cooldown_hours: 24
+calendar_review_day: 1
+event_severity_minimum: HIGH
+max_events_per_portfolio: 10
+event_types:
+  - MARKET_VOLATILITY
+  - LIQUIDITY_SHOCK
+  - CORPORATE_ACTION
+  - CREDIT_RATING_CHANGE
+  - CLIENT_CASHFLOW
+  - RESTRICTION_CHANGE
